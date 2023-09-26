@@ -1,0 +1,60 @@
+body{
+    background-image: url(backImg-frogger.jpg);
+}
+
+.grid{
+    border: 1px solid black;
+    height: 630px;
+    width: 630px;
+    /* margin-top: 50px; */
+    margin-left: 300px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+
+.start-block{
+    background-color: blue;
+}
+
+#start-pause-button ,h3{
+    margin-left: 300px;
+    
+}
+
+.frog{
+    background-color: transparent;
+    height:70px ;
+    width: 70px;
+    background-image: url(frog\ real.png);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}    
+
+.l1,.l2,.l3{
+    background-color: brown;
+}
+
+.l4,.l5{
+    background-color: lightblue;
+}
+
+.c1 , .c3{
+    background-color: lightgray;
+
+}
+.c2{
+    background-color: black;
+}
